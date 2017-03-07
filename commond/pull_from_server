@@ -1,0 +1,1 @@
+scp zhendong@xcnc21.comp.nus.edu.sg:~/datest/original_data/prediction_rf_seed_*.csv ../original_data/rf_prediction

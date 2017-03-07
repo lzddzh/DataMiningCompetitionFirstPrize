@@ -1,0 +1,1 @@
+scp -r ../commons ../learning_algorithm ../offline  e0046445@xcnd40.comp.nus.edu.sg:~/data_castle_contest

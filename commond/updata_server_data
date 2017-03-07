@@ -1,0 +1,1 @@
+scp -r ../original_data/* zhendong@xcnc0.comp.nus.edu.sg:~/data_castle_contest-master/original_data/

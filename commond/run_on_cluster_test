@@ -1,0 +1,10 @@
+#!/bin/sh
+for ((i=0;i<=29;i++))
+do
+para=${i}
+machine=$(echo "${i}+15"|bc)
+ssh zhendong@xcnc${machine}.comp.nus.edu.sg "source ~/setup.sh; cd data_castle_contest-master/online; nohup python prediction_for_test.py ${para} > ../log/et_test_seed_${para} 2>&1 & "
+echo ${i}
+done
+
+

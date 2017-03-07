@@ -1,0 +1,2 @@
+ssh e0046445@xcnd$1.comp.nus.edu.sg "ps -ef | grep e0046445 | grep python | awk '{print\$2}'| xargs kill"
+

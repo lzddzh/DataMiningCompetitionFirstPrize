@@ -1,0 +1,22 @@
+#!/bin/sh
+for ((i=0;i<=29;i++))
+do
+para=$(echo "${i}"|bc)
+machine=$(echo "${i} + 11"|bc)
+echo "machine : ${machine}    para : ${para}"
+ssh zhendong@xcnc${machine}.comp.nus.edu.sg "source ~/setup.sh; cd data_castle_contest-master/offline; nohup python learning_validation.py ${para} > ../log/et_seed_${para} 2>&1 & "
+done
+
+
+#para=100
+#machine=47
+#echo "machine : ${machine}    para : ${para}"
+#ssh e0046445@xcnd${machine}.comp.nus.edu.sg "cd data_castle_contest/offline; nohup python learning_validation.py ${para} > ../log/reg_lambda_xgb_${para} 2>&1 & "
+
+#ssh zhendong@xcnc22.comp.nus.edu.sg "source ~/setup.sh; cd data_castle_contest-master/offline; nohup python learning_validation.py 0.5 > ../log/min_weight_fraction_rf_0.5 2>&1 & "
+#ssh zhendong@xcnc23.comp.nus.edu.sg "source ~/setup.sh; cd data_castle_contest-master/offline; nohup python learning_validation.py 0.05 > ../log/min_weight_fraction_rf_0.05 2>&1 & "
+#ssh zhendong@xcnc24.comp.nus.edu.sg "source ~/setup.sh; cd data_castle_contest-master/offline; nohup python learning_validation.py 0.005 > ../log/min_weight_fraction_rf_0.005 2>&1 & "
+#ssh zhendong@xcnc25.comp.nus.edu.sg "source ~/setup.sh; cd data_castle_contest-master/offline; nohup python learning_validation.py 0.0005 > ../log/min_weight_fraction_rf_0.0005 2>&1 & "
+#ssh zhendong@xcnc26.comp.nus.edu.sg "source ~/setup.sh; cd data_castle_contest-master/offline; nohup python learning_validation.py 0.00005 > ../log/min_weight_fraction_rf_0.00005 2>&1 & "
+#ssh zhendong@xcnc27.comp.nus.edu.sg "source ~/setup.sh; cd data_castle_contest-master/offline; nohup python learning_validation.py 0.000005 > ../log/min_weight_fraction_rf_0.000005 2>&1 & "
+#ssh zhendong@xcnc28.comp.nus.edu.sg "source ~/setup.sh; cd data_castle_contest-master/offline; nohup python learning_validation.py 0.0000005 > ../log/min_weight_fraction_rf_0.0000005 2>&1 & "

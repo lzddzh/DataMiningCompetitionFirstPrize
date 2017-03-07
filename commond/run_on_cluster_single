@@ -1,0 +1,8 @@
+#!/bin/sh
+num=$1
+temp=`expr ${num} - 50`
+#rate=${temp}
+rate=$(echo "0.001*${temp}"|bc)
+echo ${num}
+echo ${rate}
+ssh e0046445@xcnd${num}.comp.nus.edu.sg "cd data_castle_contest/offline; nohup python learning_validation.py ${rate} > ../log/learing_rate_nn_${rate}  \& "
