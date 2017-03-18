@@ -176,8 +176,21 @@ $ cp testProcessed/idexamples_test_std.txt ../original_data
 在上述提取feature的过程中，脚本自动将提取出来的feature名存入了一个名为`collumInfo.txt`的文件中，存放在`processing/trainProcessed`和`processing/testProcessed`目录下。打开后您应该可以看到类似如下的内容：
 
 ```
-
+fea0    BorrowProcessed.txt    ifBorrowed
+fea1    BorrowProcessed.txt    numInCateT
+fea2    BorrowProcessed.txt    numOfBorrowed
+fea3    BorrowProcessed.txt    numOfCateBorrowed
+fea4    BorrowProcessed.txt    timesOfKaoyan
+fea5    BorrowProcessed.txt    timesOfProg
+fea6    BorrowProcessed.txt    timesOfTOEFL
+fea7    DormProcessed.txt    01_00both
+fea8    DormProcessed.txt    01_00bothDiv
+fea9    DormProcessed.txt    01_00enter
+fea10    DormProcessed.txt    01_00enterDiv
+...
 ```
+
+**特征表**: `collumInfo.txt`中展示了所有提取出来的feature。
 
 ### 划分Cross Validation集
 在本项目中，在训练模型时对模型精度进行校验的方法采用5分法Cross Validation，后简称此法为CV，简称此法产生出的5个examples子集为CV0，CV1，..., CV4。
@@ -370,7 +383,7 @@ Yancy&Zhendong
 
  - 队长：杨轩 yancy100696@gmail.com
  - 刘振东 zhendong.nus@gmail.com
- - 曹峻许 707109280@qq.com
+ - 曹峻许 junxucao@gmail.com
  - 刘一鸣 yimingl816@gmail.com
  - 卢健 jluan@connect.ust.hk
 
