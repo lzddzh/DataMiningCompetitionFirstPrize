@@ -9,6 +9,13 @@
 
 本文档将详细介绍代码的运行方法，但不会对机器学习的规范化流程和分类器模型的原理做过多的赘述。相关信息可自行google或baidu之。
 
+## 数据下载地址
+
+地址：http://pan.baidu.com/s/1skOIOzV
+密码：mw0a 
+最后一周更换数据地址：http://pan.baidu.com/s/1kUZQxlt
+密码：1bpr 
+
 ## 运行环境
 - Linux (kernel >= 3.2) / Unix (macOS)
 - Python 2.7
