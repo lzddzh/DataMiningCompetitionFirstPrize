@@ -2,6 +2,9 @@
 
 
 ## 序言
+This repo contains the source code for the first place price in 'DataCastle National Big Data Algorithm Competition(Education topic)' hold by ChengDu Government, China, in which our team has won CNY$30000(about US$4500) bonus.
+  
+
 你所看到的这份代码，是Data Castle数据挖掘公开赛《助学金精准预测》的冠军作品。本程序以大学生的行为数据以及历史获助学金情况作为训练数据集，对代码内的模型进行训练，后可根据新的大学生行为数据进行助学金获得情况预测。赛题的详细描述可查看比赛网址：
 
 [大学生助学金精准资助预测](http://www.pkbigdata.com/common/cmpt/%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%8A%A9%E5%AD%A6%E9%87%91%E7%B2%BE%E5%87%86%E8%B5%84%E5%8A%A9%E9%A2%84%E6%B5%8B_%E7%AB%9E%E8%B5%9B%E4%BF%A1%E6%81%AF.html)
@@ -12,7 +15,8 @@
 ## 数据下载地址
 
 地址：http://pan.baidu.com/s/1skOIOzV
-密码：mw0a 
+密码：mw0a   
+
 最后一周更换数据地址：http://pan.baidu.com/s/1kUZQxlt
 密码：1bpr 
 
