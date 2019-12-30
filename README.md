@@ -3,6 +3,8 @@
 
 ## 序言
 This repo contains the source code for the first prize in 'DataCastle National Big Data Algorithm Competition(Education topic)' hold by ChengDu Government, China, in which our team has won CNY$30000(about US$4500) bonus.
+
+We have prepared a very detailed paper report for this in [PDF](https://github.com/lzddzh/DataMiningCompetitionFirstPrize/blob/master/doc/Wining%20the%20Education%20Subsidy%20Prediction%20Challenge%20with%20Models%20Ensemble%20and%20Feature%20Engineering_A0159066X_A0159369L.pdf)
   
 
 你所看到的这份代码，是Data Castle数据挖掘公开赛《助学金精准预测》的冠军作品。本程序以大学生的行为数据以及历史获助学金情况作为训练数据集，对代码内的模型进行训练，后可根据新的大学生行为数据进行助学金获得情况预测。赛题的详细描述可查看比赛网址：
